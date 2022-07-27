@@ -1,5 +1,5 @@
 # 字符串控制函数
-# functions of control strings
+# Functions of control strings
 用自己的方式实现一些对字符串操作的函数，以此巩固本人对字符串的理解与运用
 
 ### 函数功能
@@ -15,3 +15,7 @@ This function was used to get the length of strings
 
 ### unsigned short int str_PartCpy(char *t, char *s, unsigned long int offset)
 This function was used to copy strings to a part of another strings
+
+#
+
+## NOTE: Because the maker is Chinese, so all the notes was writen by Chinese and some grammar of English may have some mistakes, thanks your understand!
