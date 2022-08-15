@@ -9,4 +9,10 @@ unsigned int strings_length(char *t)
 
 //字符串复制，*t是复制的目标的地址，*s被复制的字符串地址，n复制的长度
 unsigned char strings_copy(char *t, char *s, unsigned int n)
+
+//字符串比较，*t是第一个字符串的地址，*s是第二个字符串的地址
+unsigned char strings_compare(char *t, char *s)
+
+//字符串部分复制（有bug），*t是复制的目标字符串的地址，*s是被复制的字符串地址，n是复制的个数，offset是在目标字符串的偏移位数
+unsigned char strings_partCopy(char *t, char *s, unsigned int n, unsigned int offset)
 ```
